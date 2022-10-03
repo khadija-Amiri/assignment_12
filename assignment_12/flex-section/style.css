@@ -1,0 +1,131 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    border-right: 4px solid orangered;
+    border-left: 4px solid orangered;
+    border-radius: 40px;
+}
+.items{
+    font-family: cursive;
+    font-size: x-large;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    border-radius: 20px;
+}
+.header{
+    color: wheat;
+   display: flex;
+   align-items: center;
+   background-color: rgb(80, 80, 201);
+   width: 90%;
+   height: 60px;
+   justify-content: space-between;
+   padding: 30px 70px;
+   border-radius: 60px;
+}
+.navbar{
+ list-style: none;
+ color: white;
+}
+.navbar li{
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.navbar a{
+    color: white;
+}
+.navbar a:hover{
+    color: blue;
+}
+.sidebars img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
+.main-content{
+    display:inline-flex;
+    padding:  20px 50px;
+  
+   
+}
+.sidebars{
+  padding: 20px;
+  margin: 0px;
+  background-color: lightslategray;
+  width: 200px;
+  height: 500px;
+  border-radius: 60px;
+  font-family:italic;
+  margin: 10px;
+ 
+
+}
+.sidebars ul{
+    justify-content: flex-start;
+    align-content: center;
+    color: white;
+    font-size: 20px;
+    list-style-type: none;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    padding-left:40px ;
+    background-color: lightseagreen;
+    width: 1300px;
+    border-radius: 60px;
+    margin: 10px;
+}
+.cards{
+    display: inline-block;
+    background-color: rgb(45, 224, 230);
+    height: 400px;
+    width: 250px;
+    margin: 30px;
+    margin-top: 70px;
+    
+} 
+.cards:hover{
+    background-color: lightslategray;
+    color:blue;
+    transform: scale(1.03);
+}
+.cards p{
+    font-size: 30px;
+    font-family:italic;
+}
+.imagess{
+  background-color: white;
+  height: 200px; 
+  margin-bottom: 10px;
+}
+.car-1{
+    background-image: url("hummer.jpg");
+    background-size: cover;
+}
+.car-2{
+    background-image: url("hilux.jpg");
+    background-size: cover;
+}
+.car-3{
+    background-image: url("ra4.jpg");
+    background-size: cover;
+}
+.footers{
+    
+    background-color: lightskyblue;
+   flex-grow: 4;
+   height: 30px;
+   width: 90%;
+   border-radius: 60px;
+   font-size: 20px;
+   justify-content: center;
+   align-self: center;
+   padding: 30px 70px;
+  
+}

@@ -1,0 +1,85 @@
+main{
+    width: 90%;
+    margin: 60px;
+   padding: 20px;
+   border-radius: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr) 150px;
+    grid-template-rows: 60px 100px 200px 60px;
+    gap: 30px;
+    border-top: 4px solid orange;
+    border-bottom:4px solid orange; 
+
+
+
+}
+.head{
+    background-color: aqua;
+    grid-column: 1/-1;
+    border-radius: 10px;
+    
+}
+.navbar{
+    list-style: none;
+    color: white;
+   }
+   .navbar li{
+       display: inline-block;
+       padding: 0 15px;
+       text-transform: uppercase;
+   }
+   .navbar a{
+       color: white;
+   }
+   .navbar a:hover{
+       color: blue;
+   }
+.box-1{
+    background-color: brown;
+    border-radius: 10px;
+    }
+.box-2{
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+.box-3{
+    background-color: chocolate;
+    border-radius: 10px;
+}
+.sidebars{
+
+    padding: 40px;
+    padding-left: 10px;
+    background-color: darkmagenta;
+    border-radius: 10px;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    font-family: italic;
+    
+}
+.sidebars ul{
+    align-content: center;
+    color: white;
+    font-size: 12px;
+    list-style-type: none;
+}
+.sidebars img{
+    padding: 5px;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+.main-content{
+    background-color: darkslateblue;
+    grid-column: 1/4;
+    border-radius: 10px;
+  
+}
+.footers{
+    background-color: darkred;
+    grid-column: 1/-1;
+    border-radius: 10px;
+   
+    
+}
